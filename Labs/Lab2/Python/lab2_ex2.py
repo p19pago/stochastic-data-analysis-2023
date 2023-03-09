@@ -25,7 +25,7 @@ df = pd.read_csv("C:\\Users\\user\\Documents\\στοχαστικη εργαστ�
 
 print(df.values)
 
-t = df.to_numpy()
+t = df.to_numpy() # used in case of "emergency"
 
 # for element in t:
     # print(element)
