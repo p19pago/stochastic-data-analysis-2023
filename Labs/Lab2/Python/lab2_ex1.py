@@ -30,3 +30,9 @@ print("Mean value is: ", mean)
 var = statistics.variance(t)
 
 print("Variance value is: ", var)
+
+# standard deviation using statistics library
+
+stdv = statistics.stdev(t, mean)
+
+print("Standard deviation value is: ", stdv)
