@@ -30,7 +30,7 @@ t = df.to_numpy()
 # for element in t:
     # print(element)
 
-print(t)
+print(t) # used in case of "emergency"
 
 # mean value using numpy
 
