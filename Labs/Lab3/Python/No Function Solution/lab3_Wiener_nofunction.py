@@ -49,9 +49,6 @@ ns = np.zeros(steps)
 
 ns[0] = x0
 
-# we will declare the mean or standard deviation variables manually
-# in order for them to be calculated using a built-in function in numpy
-
 # for-loop
 
 for t in range(1, steps):
