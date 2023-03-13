@@ -38,6 +38,7 @@ def Wiener(dt = 1, x0 = 0, steps = 1000, mn = 0, sd = 1):
         mn represents Gaussian mean (or mean) and will be set to 0 initially
         sd represents Gaussian standard deviation
     '''
+    
     # we will create a result array consisting of zeros
     # using numpy
     
@@ -76,3 +77,23 @@ plt.plot(Wiener())
 
 # and so on
 # use it for as many times you want!
+
+# update using the final plot
+
+final = []
+
+for i in range(100):
+    
+    y = []
+    for j in range(100):
+        
+        x = Wiener()
+        y.append(x[-1])
+    final.append(np.mean(y))
+
+# final plot functions
+
+plt.figure(figsize=(20,9))
+plt.plot(final)
+
+# histogram is optional    
