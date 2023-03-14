@@ -85,3 +85,19 @@ plt.plot(OrnsteinUhl(x0=2))
 
 # and so on
 # use it for as many times you want!
+
+final = []
+
+for i in range(10):
+    
+    y = []
+    for j in range(10):
+        
+        x = OrnsteinUhl()
+        y.append(x[-1])
+    final.append(np.mean(y))
+
+# final plot functions
+
+plt.figure(figsize=(20,9))
+plt.plot(final)
