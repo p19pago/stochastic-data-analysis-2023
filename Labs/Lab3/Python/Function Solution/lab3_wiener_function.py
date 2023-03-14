@@ -82,10 +82,10 @@ plt.plot(Wiener())
 
 final = []
 
-for i in range(100):
+for i in range(10):
     
     y = []
-    for j in range(100):
+    for j in range(10):
         
         x = Wiener()
         y.append(x[-1])
