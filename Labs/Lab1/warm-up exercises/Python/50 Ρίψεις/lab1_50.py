@@ -42,7 +42,7 @@ s1 = [0] # registered position for the first walker, also must be initialized to
 
 # no heads or tails will be of need in this example
 
-# IMPORTANT: before we move into the main part of the code, we should alter the values of the array so instead of zeros it should be integers from 0 to 1000
+# IMPORTANT: before we move into the main part of the code, we should alter the values of the array so instead of zeros it should be integers from 0 to 50
 
 rw = np.arange(0, 50)
 
