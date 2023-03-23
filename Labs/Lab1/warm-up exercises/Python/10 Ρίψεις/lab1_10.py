@@ -6,7 +6,8 @@
 
 # Code
 # Import functions as to be used during the code
-# Functions that will be used: random (for random numbers), numpy (for mathematical functions/symbols) and matplotlib to implement the final chart and position of the walker.
+# Functions that will be used: random (for random numbers), numpy (for mathematical functions/symbols)
+# and matplotlib to implement the final chart and position of the walker.
 # Initialization
 
 import random # random numbers
@@ -14,7 +15,8 @@ import numpy as np # mathematical functions and symbols each
 import matplotlib.pyplot as plt # diagram/graph plotting package
 
 # we first import the three (3) basic libraries as described in the comments on the first 8 lines of the code
-# either way we should have imported the "time" library, but it does not count in our method because it measures the number of seconds since January 1st 1970.
+# either way we should have imported the "time" library, but it does not count in our method
+# because it measures the number of seconds since January 1st 1970.
 # but we will use arrays to declare our final points and positions (using np)
 
 # let's get to the main point of the code and what it actually needs.
@@ -29,7 +31,8 @@ import matplotlib.pyplot as plt # diagram/graph plotting package
 #       rw (an array determining the amount of walks in one dimension)
 
 x = 0 # x must be initialized to 0
-rw = np.zeros(1000) # a 1 dimensional array consisting of zeros at the beginning. It determines the amount of walks in one dimension.
+rw = np.zeros(10) # a 1 dimensional array consisting of zeros at the beginning.
+# It determines the amount of walks in one dimension.
 
 # other variables
 # first walkers
@@ -42,9 +45,10 @@ s1 = [0] # registered position for the first walker, also must be initialized to
 
 # no heads or tails will be of need in this example
 
-# IMPORTANT: before we move into the main part of the code, we should alter the values of the array so instead of zeros it should be integers from 0 to 1000
+# IMPORTANT: before we move into the main part of the code, we should alter the values of the array
+# so instead of zeros it should be integers from 0 to 1000
 
-rw = np.arange(0, 1000)
+rw = np.arange(0, 10)
 
 # main part of the code
 
