@@ -1,5 +1,5 @@
 # Lab 5th
-# "my method" 2 of 4 - solution with tables assigned from user
+# "my method" 2 of 4 - solution with values assigned from user
 # without input or for-loops (random numbers)
 
 # first we import the functions which will be used for our program.
