@@ -32,7 +32,7 @@ from numpy import sqrt
 
 # dataframe for the x array
 
-df_x = pd.read_csv("C:\\Users\\user\\Documents\\στοχαστικη εργαστήριο\\Labs\\Lab5\\Python\\method 4\\method4-dataset.csv",
+df_x = pd.read_csv("method4-dataset.csv",
                    sep=",",
                    decimal=",",
                    index_col=1,
@@ -52,7 +52,7 @@ print('Display all values of x array: \n', x)
 
 # dataframe for the y array
 
-df_y = pd.read_csv("C:\\Users\\user\\Documents\\στοχαστικη εργαστήριο\\Labs\\Lab5\\Python\\method 4\\method4-dataset.csv",
+df_y = pd.read_csv("method4-dataset.csv",
                    sep=",",
                    decimal=",",
                    index_col=0,
