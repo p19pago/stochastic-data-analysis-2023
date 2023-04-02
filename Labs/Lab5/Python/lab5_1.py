@@ -1,5 +1,5 @@
 # Lab 5th
-# "my method" 1 of 4 - solution with tables input from user
+# "my method" 1 of 4 - solution with values input from user
 
 # first we import the functions which will be used for our program.
 
