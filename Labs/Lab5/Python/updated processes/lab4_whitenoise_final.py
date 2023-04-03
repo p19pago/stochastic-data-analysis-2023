@@ -1,5 +1,6 @@
-# Lab 4th - White Noise Process
+# Lab 5th - White Noise Process
 # "my method" - solution with function and plot
+# updated with covariance
 
 # first we import the functions which will be used for our program.
 
