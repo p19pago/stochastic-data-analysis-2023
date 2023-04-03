@@ -1,4 +1,4 @@
-# Lab 3rd
+# Lab 5th
 # Ornstein-Uhlenbeck process
 # "my method" - function solution
 # final version updated with covariance
