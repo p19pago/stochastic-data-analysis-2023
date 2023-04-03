@@ -1,4 +1,4 @@
-# Lab 5rd - Wiener process
+# Lab 5th - Wiener process
 # "my method" - solution with function and plot
 # final version updated with covariance
 
