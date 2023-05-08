@@ -185,7 +185,7 @@ plt.show()
 plt.plot(np.abs((2/len(s6))*np.fft.rfft(s6)))
 plt.show()
 
-# signals 3 and 4
+# signals 7 and 8
 
 plt.plot(np.abs(2/(len(s7))*np.fft.rfft(s7)))
 plt.show()
@@ -193,7 +193,7 @@ plt.show()
 plt.plot(np.abs((2/len(s8))*np.fft.rfft(s8)))
 plt.show()
 
-# signals 3 and 4
+# signals 9 and 10
 
 plt.plot(np.abs(2/(len(s9))*np.fft.rfft(s9)))
 plt.show()
