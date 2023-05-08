@@ -18,9 +18,6 @@ plt.rcParams["figure.figsize"] = (20,8)
 import math
 import statistics
 
-# we will define each pulse function separately
-# one by one
-
 # Basic rectangular pulse function
 def rect_p(t):
     return 1 * (abs(t) < 2)
