@@ -48,7 +48,7 @@
 
 > ![image](https://github.com/p19pago/stochastic-data-analysis-2023/assets/72542408/729e0109-7feb-42a1-80e4-f1edc3d8d31a)
 >
-> [Όπου]
+> [Όπου μ είναι ο μέσος, E είναι η τετραγωνική απόκλιση από τον μέσο του Χ (μ)]
 
 ## Υπολογισμός Συνδιακύμανσης
 
@@ -56,7 +56,7 @@
 > 
 > ![image](https://github.com/p19pago/stochastic-data-analysis-2023/assets/72542408/64fbad5c-26d0-4d40-b5ee-9e7002f59341)
 >
-> [Όπου]
+> [Όπου E είναι η τετραγωνική απόκλιση από τον μέσο των Χ και Υ]
 
 ## Υπολογισμός Συντελεστή Συσχέτισης Pearson
 
@@ -64,4 +64,4 @@
 > 
 > ![image](https://github.com/p19pago/stochastic-data-analysis-2023/assets/72542408/3aefa941-3d58-499a-b4fa-b38d88ef8628)
 >
-> [Όπου]
+> [Όπου Cov(X,Y) η συνδιασπορά/συνδιακύμανση μεταξύ Χ και Υ, VarX η διακύμανση για το Χ, VarY η διακύμανση για το Υ]
